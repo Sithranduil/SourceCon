@@ -1,0 +1,12 @@
+{
+    "extends": "@tsconfig/recommended/tsconfig.json",
+    "include": ["src", "types"],
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "esnext",
+        "declaration": true,
+        "sourceMap": true,
+        "outDir": "./dist"
+    },
+    "strict": true
+}
